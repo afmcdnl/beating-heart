@@ -8,6 +8,13 @@ input.onButtonPressed(Button.B, function () {
     basic.pause(1000)
     basic.clearScreen()
 })
+input.onGesture(Gesture.Shake, function () {
+    x += 1
+    basic.showNumber(x)
+    basic.clearScreen()
+})
+let x = 0
+x = 0
 for (let index = 0; index < 4; index++) {
     basic.showIcon(IconNames.Heart)
     basic.pause(100)
