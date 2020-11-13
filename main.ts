@@ -3,6 +3,15 @@ input.onButtonPressed(Button.A, function () {
     basic.pause(1000)
     basic.clearScreen()
 })
+input.onGesture(Gesture.TiltLeft, function () {
+    basic.showLeds(`
+        . . # . .
+        . # . . .
+        # # # # #
+        . # . . .
+        . . # . .
+        `)
+})
 input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.Angry)
     basic.pause(1000)
