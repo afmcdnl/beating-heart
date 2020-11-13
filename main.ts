@@ -1,13 +1,3 @@
-input.onButtonPressed(Button.A, function () {
-    basic.showIcon(IconNames.Happy)
-    basic.pause(1000)
-    basic.clearScreen()
-})
-input.onButtonPressed(Button.B, function () {
-    basic.showIcon(IconNames.Angry)
-    basic.pause(1000)
-    basic.clearScreen()
-})
 for (let index = 0; index < 4; index++) {
     basic.showIcon(IconNames.Heart)
     basic.pause(100)
