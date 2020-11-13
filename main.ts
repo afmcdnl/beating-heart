@@ -11,6 +11,14 @@ input.onGesture(Gesture.TiltLeft, function () {
         . # . . .
         . . # . .
         `)
+    x += 1
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
 })
 input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.Angry)
